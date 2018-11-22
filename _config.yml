@@ -3,14 +3,26 @@
 language: en
 
 # main menu navigation
+# 导航栏
 menu:
   HOME: /
-  ARCHIVES: /archives
+  ARCHIVE: /archives
   ABOUT: /about
 
-# Miscelaneous
+# connect
+# 此处联系方式，页面最底下的图标，直接填地址就可以
+# 暂时支持的这几个，有别的需求的可以发 issues，或者自己魔改
+connect:
+  weibo: /
+  github: https://github.com/orbem
+  twitter: /
+  juejin: https://juejin.im/user/5acc88a8f265da23a2297002
+  zhihu: https://www.zhihu.com/people/adherds/activities
+
+# favicon 
 favicon: /favicon.ico
 
 # your disqus shortname
+# 暂时只支持 Disqus，有需求可以自己添加
 disqus: orbem
 
